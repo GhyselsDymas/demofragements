@@ -1,0 +1,35 @@
+#menu_style {
+    width: 100%;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: -moz-linear-gradient(to left, lightskyblue, aliceblue);
+    background: -webkit-linear-gradient(to left, lightskyblue, aliceblue);
+    background: linear-gradient(to left, lightskyblue, dodgerblue);
+    background: lightskyblue;
+}
+
+#menu_style ul {
+    list-style: none;
+    padding: 0;
+}
+
+#menu_style ul li {
+    display: inline-block;
+}
+
+#menu_style ul li a {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    background: lightskyblue;
+}
+
+#menu_style ul li a:active{
+    background-color: dodgerblue;
+}
+
+.active {
+    background-color: red;
+}

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org">
+
+<!--CSS-->
+<link rel="stylesheet" th:href="@{~/style.css}">
+
+<nav th:fragment="nav_menu(page)" id="menu_style">
+    <ul>
+        <li><a th:href="@{~/index}" th:class="${(page=='index')?'active':''}"> Home</a></li>
+        <li><a th:href="@{~/about}" th:class="${(page=='about')?'active':''}"> about</a></li>
+    </ul>
+</nav>
+
+</html>
